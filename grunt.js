@@ -39,7 +39,7 @@ module.exports = function(grunt) {
       folder: "compiled"
     },
     copy: {
-      dist: {
+      dev: {
         files: {
           "compiled/vendor/": "vendor/**",
           "compiled/javascripts/": "javascripts/*.js",
