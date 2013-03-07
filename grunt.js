@@ -43,7 +43,8 @@ module.exports = function(grunt) {
         files: {
           "compiled/vendor/": "vendor/**",
           "compiled/javascripts/": "javascripts/*.js",
-          "compiled/images/": "images/**"
+          "compiled/images/": "images/**",
+          "compiled/stylesheets/": "stylesheets/**.css"
         }
       }
     },
